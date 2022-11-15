@@ -1,10 +1,24 @@
-.link {
+body {
+    font-family: Roboto;
+}
+
+/* .link {
     text-decoration: none;
 }
 
 .logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     
-    color: #000000
+    color: #2196F3;
+}
+
+.logo-link-black {
+    color: black;
 }
 
 .nav-link {
@@ -19,4 +33,4 @@
     letter-spacing: 0.02em;
     
     color: #2196F3
-}
+} */
