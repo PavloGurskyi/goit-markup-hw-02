@@ -1,0 +1,22 @@
+.link {
+    text-decoration: none;
+}
+
+.logo-link {
+    
+    color: #000000
+}
+
+.nav-link {
+    
+    color: #212121;
+}
+
+.current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3
+}
