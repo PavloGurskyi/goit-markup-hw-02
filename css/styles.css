@@ -61,7 +61,7 @@ li {
   color: var(--accent-color);
 }
 
-.hero-color {
+.hero {
   background-color: var(--main-color);
   height: 600px;
 }
@@ -76,6 +76,7 @@ h1 {
   text-transform: uppercase;
 
   color: #ffffff;
+  width: 696px;
 }
 
 .hero-button {
@@ -86,6 +87,7 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 216px;
   height: 50px;
+  /* margin: auto; */
   border-radius: 4px;
   cursor: var(--cursor);
 }
