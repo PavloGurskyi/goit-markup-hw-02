@@ -50,16 +50,14 @@ li {
 
 .nav-link {
   color: #212121;
+  font-weight: 500;
+  line-height: (16/14);
+  letter-spacing: 0.02em;
 }
 
 .current.nav-link,
 .nav-link:hover,
 .nav-link:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: (16/14);
-  letter-spacing: 0.02em;
-
   color: var(--accent-color);
 }
 
