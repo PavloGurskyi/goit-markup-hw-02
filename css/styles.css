@@ -3,11 +3,13 @@
   --accent-color: #2196f3;
   --headers-color: #212121;
   --simple-text-color: #757575;
+  --cursor: pointer;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Raleway, sans-serif;
   font-size: 14px;
+  width: 1600px;
 }
 
 li {
@@ -63,6 +65,7 @@ li {
 
 .hero-color {
   background-color: var(--main-color);
+  height: 600px;
 }
 
 h1 {
@@ -80,6 +83,13 @@ h1 {
 .hero-button {
   color: white;
   background-color: #2196f3;
+  border: 0px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: var(--cursor);
 }
 
 .footer-address {
@@ -107,6 +117,9 @@ h1 {
 
   color: #212121;
   background-color: #f5f4fa;
+  cursor: var(--cursor);
+  border: 0px solid;
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -160,4 +173,17 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--headers-color);
+}
+
+.portfolio-h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+  color: var(--headers-color);
+}
+
+.simple-portfolio-text {
+  color: var(--simple-text-color);
 }
